@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style for the container */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7); /* Translucent background */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the textarea */
+textarea {
+    resize: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the button */
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.convert-again {
+    display: inline-block; /* Makes it behave like a button */
+    padding: 10px 20px;   /* Adds space around the text */
+    margin-top: 20px;     /* Adds space above the link */
+    background-color: #28a745; /* Blue background */
+    color: white;         /* White text color */
+    font-size: 16px;      /* Font size */
+    font-weight: bold;    /* Bold text */
+    text-decoration: none; /* Removes the underline */
+    border-radius: 5px;   /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.convert-again:hover {
+    background-color: #218838; /* Darker blue on hover */
+}

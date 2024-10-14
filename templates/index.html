@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Text to Emoji Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Emoji Converter</h1>
+        <form action="/convert" method="POST">
+            <textarea name="text" rows="4" placeholder="Type your text here..." required></textarea>
+            <button type="submit">Convert to Emoji</button>
+        </form>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
